@@ -26,6 +26,21 @@ Weather_Observations.csv: Timestamped meteorological observations.
 
 Weather_Stations.csv: Metadata about weather stations.
 
+#### Instruction
+
+├── data
+│    ├── Apiary_Information.csv
+│    ├── Hive_Information.csv 
+|    ├── HCC_Inspections.csv
+|    ├── Hourly_Weather.csv
+|    ├── Weather_Observations.csv
+|    ├── Weather_Stations.csv
+├── models
+|    ├── logistic_regression_20250530_193005.pkl
+|    ├── mlp_model.joblib
+├── 1. course project1.ipynb
+│   2. course project2.ipynb
+
 #### Methodology
 Data Integration: Datasets were joined on identifiers such as HiveID, StationID, and ObsID.
 
@@ -67,14 +82,4 @@ Data Expansion: Incorporate additional data sources such as land use, pesticide 
 This integrated analysis demonstrates that bee health is influenced by both environmental and internal factors. While positive correlations were identified, future work should address data gaps and irregularities. These insights can form the basis for data-driven tools to support ecological sustainability in beekeeping.
 
 
-### Bibliography 
-Doumlau, J. (2025). Beehive Data Project: Hive and Weather Correlation Studies. Internal Dataset Documentation.
-
-Waskom, M. (2023). Seaborn: Statistical Data Visualization. https://seaborn.pydata.org
-
-Hunter, J. D., et al. (2023). Matplotlib: Visualization with Python. https://matplotlib.org
-
-McKinney, W. (2023). pandas: Python Data Analysis Library. https://pandas.pydata.org
-
-Virtanen, P., et al. (2023). SciPy: Fundamental Algorithms for Scientific Computing in Python. https://scipy.org
 
